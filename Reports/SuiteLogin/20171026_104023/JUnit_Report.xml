@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="SuiteLogin" time="64" tests="1" failures="0" errors="0">
+   <testsuite name="SuiteLogin" tests="1" failures="0" errors="0" time="64" timestamp="2017-10-26 10:40:27" hostname="angel - W10-PRJ" id="Test Suites/SuiteLogin">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\angel\\git\\testgeneral\\Reports\\SuiteLogin\\20171026_104023"/>
+         <property name="logFiles" value="C:\\Users\\angel\\git\\testgeneral\\Reports\\SuiteLogin\\20171026_104023\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="angel - W10-PRJ"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="4.8.0.2"/>
+         <property name="browser" value="Firefox 56.0"/>
+         <property name="hostAddress" value="192.168.110.241"/>
+         <property name="sessionId" value="b1d90eb5-fd32-437d-91e3-b1f96b57bedf"/>
+         <property name="seleniumVersion" value="2.53.0"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Crear User" classname="Test Cases/Crear User" status="PASSED">
+         <system-out><![CDATA[2017-10-26 10:40:28 - [TEST_CASE][PASSED] - Test Cases/Crear User: Test Cases/Crear User
+
+2017-10-26 10:40:32 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'http://1106.logicommerce.net/?forceView=1'
+
+2017-10-26 10:40:57 - [MESSAGE][PASSED] - Browser is opened with url: 'http://1106.logicommerce.net/?forceView=1'
+
+2017-10-26 10:40:57 - [TEST_STEP][PASSED] - Statement - SignIn = new com.kms.katalon.core.testobject.TestObject(SignIn): null
+
+2017-10-26 10:40:57 - [TEST_STEP][PASSED] - Statement - SignIn.addProperty("xpath", EQUALS, "//a[contains(@href,'/user')][@title='Sign In']", true): null
+
+2017-10-26 10:40:57 - [TEST_STEP][PASSED] - click: Object: 'SignIn' is clicked on
+
+2017-10-26 10:40:58 - [MESSAGE][PASSED] - Object: 'SignIn' is clicked on
+
+2017-10-26 10:40:58 - [TEST_STEP][PASSED] - Statement - CreateAccount = new com.kms.katalon.core.testobject.TestObject(CreateAccount): null
+
+2017-10-26 10:40:58 - [TEST_STEP][PASSED] - Statement - CreateAccount.addProperty("xpath", EQUALS, "//a[contains(@href,'/createAccount')][@class='btn']", true): null
+
+2017-10-26 10:40:58 - [TEST_STEP][PASSED] - click: Object: 'CreateAccount' is clicked on
+
+2017-10-26 10:41:06 - [MESSAGE][PASSED] - Object: 'CreateAccount' is clicked on
+
+2017-10-26 10:41:06 - [TEST_STEP][PASSED] - Statement - s = "tlg-": null
+
+2017-10-26 10:41:06 - [TEST_STEP][PASSED] - Statement - s += new java.util.Date().format("yyyyMMdd"): null
+
+2017-10-26 10:41:06 - [TEST_STEP][PASSED] - Statement - s += "-": null
+
+2017-10-26 10:41:06 - [TEST_STEP][PASSED] - Statement - randomGenerator = new java.util.Random(): null
+
+2017-10-26 10:41:06 - [TEST_STEP][PASSED] - Statement - hash = randomGenerator.nextInt(100): null
+
+2017-10-26 10:41:06 - [TEST_STEP][PASSED] - Statement - s += hash: null
+
+2017-10-26 10:41:06 - [TEST_STEP][PASSED] - Statement - s = s + "@tlg.com": null
+
+2017-10-26 10:41:06 - [TEST_STEP][PASSED] - Statement - mailGlobal = s: null
+
+2017-10-26 10:41:06 - [TEST_STEP][PASSED] - Statement - mail = new com.kms.katalon.core.testobject.TestObject(mail): null
+
+2017-10-26 10:41:06 - [TEST_STEP][PASSED] - Statement - mail.addProperty("xpath", EQUALS, "//input[@id='userEmailField']", true): null
+
+2017-10-26 10:41:06 - [TEST_STEP][PASSED] - setText: Text 'tlg-20171026-50@tlg.com' is set on object 'mail'
+
+2017-10-26 10:41:13 - [MESSAGE][PASSED] - Text 'tlg-20171026-50@tlg.com' is set on object 'mail'
+
+2017-10-26 10:41:13 - [TEST_STEP][PASSED] - Statement - Adreca1 = new com.kms.katalon.core.testobject.TestObject(Adreca1): null
+
+2017-10-26 10:41:13 - [TEST_STEP][PASSED] - Statement - Adreca1.addProperty("xpath", EQUALS, "//input[@id='userAddress1Field']", true): null
+
+2017-10-26 10:41:13 - [TEST_STEP][PASSED] - setText: Text 'Adreca test 1' is set on object 'Adreca1'
+
+2017-10-26 10:41:14 - [MESSAGE][PASSED] - Text 'Adreca test 1' is set on object 'Adreca1'
+
+2017-10-26 10:41:14 - [TEST_STEP][PASSED] - Statement - Adreca2 = new com.kms.katalon.core.testobject.TestObject(Adreca2): null
+
+2017-10-26 10:41:14 - [TEST_STEP][PASSED] - Statement - Adreca2.addProperty("xpath", EQUALS, "//input[@id='userAddress2Field']", true): null
+
+2017-10-26 10:41:14 - [TEST_STEP][PASSED] - setText: Text 'Adreca test 2' is set on object 'Adreca2'
+
+2017-10-26 10:41:15 - [MESSAGE][PASSED] - Text 'Adreca test 2' is set on object 'Adreca2'
+
+2017-10-26 10:41:15 - [TEST_STEP][PASSED] - Statement - Compania = new com.kms.katalon.core.testobject.TestObject(Compania): null
+
+2017-10-26 10:41:15 - [TEST_STEP][PASSED] - Statement - Compania.addProperty("xpath", EQUALS, "//input[@id='userCompanyField']", true): null
+
+2017-10-26 10:41:15 - [TEST_STEP][PASSED] - setText: Text ' Compania Test' is set on object 'Compania'
+
+2017-10-26 10:41:16 - [MESSAGE][PASSED] - Text ' Compania Test' is set on object 'Compania'
+
+2017-10-26 10:41:16 - [TEST_STEP][PASSED] - Statement - Name = new com.kms.katalon.core.testobject.TestObject(Name): null
+
+2017-10-26 10:41:16 - [TEST_STEP][PASSED] - Statement - Name.addProperty("xpath", EQUALS, "//input[@id='userFirstNameField']", true): null
+
+2017-10-26 10:41:16 - [TEST_STEP][PASSED] - setText: Text ' Nombre Test' is set on object 'Name'
+
+2017-10-26 10:41:16 - [MESSAGE][PASSED] - Text ' Nombre Test' is set on object 'Name'
+
+2017-10-26 10:41:16 - [TEST_STEP][PASSED] - Statement - Apellido = new com.kms.katalon.core.testobject.TestObject(Apellido): null
+
+2017-10-26 10:41:16 - [TEST_STEP][PASSED] - Statement - Apellido.addProperty("xpath", EQUALS, "//input[@id='userLastNameField']", true): null
+
+2017-10-26 10:41:16 - [TEST_STEP][PASSED] - setText: Text ' Apellido Test' is set on object 'Apellido'
+
+2017-10-26 10:41:17 - [MESSAGE][PASSED] - Text ' Apellido Test' is set on object 'Apellido'
+
+2017-10-26 10:41:17 - [TEST_STEP][PASSED] - Statement - Pass = new com.kms.katalon.core.testobject.TestObject(Pass): null
+
+2017-10-26 10:41:17 - [TEST_STEP][PASSED] - Statement - Pass.addProperty("xpath", EQUALS, "//input[@id='userPasswordField']", true): null
+
+2017-10-26 10:41:17 - [TEST_STEP][PASSED] - setText: Text 'pass1' is set on object 'Pass'
+
+2017-10-26 10:41:18 - [MESSAGE][PASSED] - Text 'pass1' is set on object 'Pass'
+
+2017-10-26 10:41:18 - [TEST_STEP][PASSED] - Statement - CPass = new com.kms.katalon.core.testobject.TestObject(CPass): null
+
+2017-10-26 10:41:18 - [TEST_STEP][PASSED] - Statement - CPass.addProperty("xpath", EQUALS, "//input[@id='userRetypePasswordField']", true): null
+
+2017-10-26 10:41:18 - [TEST_STEP][PASSED] - setText: Text 'pass1' is set on object 'CPass'
+
+2017-10-26 10:41:19 - [MESSAGE][PASSED] - Text 'pass1' is set on object 'CPass'
+
+2017-10-26 10:41:19 - [TEST_STEP][PASSED] - Statement - Phone = new com.kms.katalon.core.testobject.TestObject(Phone): null
+
+2017-10-26 10:41:19 - [TEST_STEP][PASSED] - Statement - Phone.addProperty("xpath", EQUALS, "//input[@id='userPhoneField']", true): null
+
+2017-10-26 10:41:19 - [TEST_STEP][PASSED] - setText: Text '938050404' is set on object 'Phone'
+
+2017-10-26 10:41:20 - [MESSAGE][PASSED] - Text '938050404' is set on object 'Phone'
+
+2017-10-26 10:41:20 - [TEST_STEP][PASSED] - Statement - TermsOfUse = new com.kms.katalon.core.testobject.TestObject(TermsOfUse): null
+
+2017-10-26 10:41:20 - [TEST_STEP][PASSED] - Statement - TermsOfUse.addProperty("xpath", EQUALS, "//input[@type='checkbox'][@class='validate-required-check'][ancestor::form[@id='userForm']]", true): null
+
+2017-10-26 10:41:20 - [TEST_STEP][PASSED] - check: Object 'TermsOfUse' is checked
+
+2017-10-26 10:41:20 - [MESSAGE][PASSED] - Object 'TermsOfUse' is checked
+
+2017-10-26 10:41:21 - [TEST_STEP][PASSED] - Statement - Country1 = new com.kms.katalon.core.testobject.TestObject(Country1): null
+
+2017-10-26 10:41:21 - [TEST_STEP][PASSED] - Statement - Country1.addProperty("xpath", EQUALS, "//select[@id='userCountryField']", true): null
+
+2017-10-26 10:41:21 - [TEST_STEP][PASSED] - selectOptionByLabel: All options with label 'hong kong' are selected in object 'Country1' 
+
+2017-10-26 10:41:21 - [MESSAGE][PASSED] - All options with label 'hong kong' are selected in object 'Country1' 
+
+2017-10-26 10:41:21 - [TEST_STEP][PASSED] - Statement - Country2 = new com.kms.katalon.core.testobject.TestObject(Country2): null
+
+2017-10-26 10:41:21 - [TEST_STEP][PASSED] - Statement - Country2.addProperty("xpath", EQUALS, "//div[contains(@class, 'countriesSelector')]/select", true): null
+
+2017-10-26 10:41:21 - [TEST_STEP][PASSED] - selectOptionByLabel: All options with label 'hong kong island' are selected in object 'Country2' 
+
+2017-10-26 10:41:22 - [MESSAGE][PASSED] - All options with label 'hong kong island' are selected in object 'Country2' 
+
+2017-10-26 10:41:22 - [TEST_STEP][PASSED] - Statement - TercerArea = new com.kms.katalon.core.testobject.TestObject(TercerArea): null
+
+2017-10-26 10:41:22 - [TEST_STEP][PASSED] - Statement - TercerArea.addProperty("xpath", EQUALS, "//div[contains(@class, 'countriesSelector')]/div/select", true): null
+
+2017-10-26 10:41:22 - [TEST_STEP][PASSED] - selectOptionByLabel: All options with label 'central and western' are selected in object 'TercerArea' 
+
+2017-10-26 10:41:24 - [MESSAGE][PASSED] - All options with label 'central and western' are selected in object 'TercerArea' 
+
+2017-10-26 10:41:25 - [TEST_STEP][PASSED] - Statement - CuartaArea = new com.kms.katalon.core.testobject.TestObject(CuartaArea): null
+
+2017-10-26 10:41:25 - [TEST_STEP][PASSED] - Statement - CuartaArea.addProperty("xpath", EQUALS, "//div[contains(@class, 'countriesSelector')]/div/div/select", true): null
+
+2017-10-26 10:41:25 - [TEST_STEP][PASSED] - selectOptionByLabel: All options with label 'central' are selected in object 'CuartaArea' 
+
+2017-10-26 10:41:27 - [MESSAGE][PASSED] - All options with label 'central' are selected in object 'CuartaArea' 
+
+2017-10-26 10:41:27 - [TEST_STEP][PASSED] - Statement - QuintaArea = new com.kms.katalon.core.testobject.TestObject(QuintaArea): null
+
+2017-10-26 10:41:27 - [TEST_STEP][PASSED] - Statement - QuintaArea.addProperty("xpath", EQUALS, "//div[contains(@class, 'countriesSelector')]/div/div/div/select", true): null
+
+2017-10-26 10:41:27 - [TEST_STEP][PASSED] - selectOptionByLabel: All options with label 'admiralty' are selected in object 'QuintaArea' 
+
+2017-10-26 10:41:29 - [MESSAGE][PASSED] - All options with label 'admiralty' are selected in object 'QuintaArea' 
+
+2017-10-26 10:41:29 - [TEST_STEP][PASSED] - Statement - Acabar = new com.kms.katalon.core.testobject.TestObject(Acabar): null
+
+2017-10-26 10:41:29 - [TEST_STEP][PASSED] - Statement - Acabar.addProperty("xpath", EQUALS, "//input[@id='saveUserButton']", true): null
+
+2017-10-26 10:41:29 - [TEST_STEP][PASSED] - click: Object: 'Acabar' is clicked on
+
+2017-10-26 10:41:30 - [MESSAGE][PASSED] - Object: 'Acabar' is clicked on
+
+2017-10-26 10:41:30 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2017-10-26 10:41:31 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2017-10-26 10:40:27 - [TEST_SUITE][PASSED] - SuiteLogin: Test Cases/Crear User]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
