@@ -20,19 +20,19 @@
    <testCaseLink>
       <guid>3288d324-0148-421f-83d7-f5af46092814</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/login</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>34021cc7-2f0f-46ef-a209-11e073ff0a3b</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/logout</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>eb5e1001-386a-4e32-aa96-c3e16097fb50</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Delete</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>
