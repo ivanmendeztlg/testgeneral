@@ -1,0 +1,137 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+SuiteLogin,Firefox 56.0,,2017-10-26 10:20:00,2017-10-26 10:24:02,"4m - 1,565s",PASSED
+,,,,,,
+Test Cases/Crear User,Firefox 56.0,,2017-10-26 10:20:01,2017-10-26 10:21:16,"1m - 15,508s",PASSED
+openBrowser,Firefox 56.0,,2017-10-26 10:20:04,2017-10-26 10:20:41,"36,580s",PASSED
+Statement - SignIn = new com.kms.katalon.core.testobject.TestObject(SignIn),Firefox 56.0,Creamos un nuevo TestObject para el boton Create Account\r\n,2017-10-26 10:20:41,2017-10-26 10:20:41,"0,031s",PASSED
+"Statement - SignIn.addProperty(""xpath"", EQUALS, ""//a[contains(@href,'/user')][@title='Sign In']"", true)",Firefox 56.0,Decimos que este testobject contiene la propiedad Xpath que nos interesa,2017-10-26 10:20:41,2017-10-26 10:20:41,"0,031s",PASSED
+click,Firefox 56.0,clickamos en el test Obect\r\n,2017-10-26 10:20:41,2017-10-26 10:20:42,"1,406s",PASSED
+Statement - CreateAccount = new com.kms.katalon.core.testobject.TestObject(CreateAccount),Firefox 56.0,Creamos un nuevo TestObject para el boton Create Account\r\n,2017-10-26 10:20:42,2017-10-26 10:20:42,"0,002s",PASSED
+"Statement - CreateAccount.addProperty(""xpath"", EQUALS, ""//a[contains(@href,'/createAccount')][@class='btn']"", true)",Firefox 56.0,Decimos que este testobject contiene la propiedad Xpath que nos interesa,2017-10-26 10:20:42,2017-10-26 10:20:42,"0,002s",PASSED
+click,Firefox 56.0,clickamos en el test Obect\r\n,2017-10-26 10:20:42,2017-10-26 10:20:51,"8,566s",PASSED
+"Statement - s = ""tlg-""",Firefox 56.0,,2017-10-26 10:20:51,2017-10-26 10:20:51,"0,002s",PASSED
+"Statement - s += new java.util.Date().format(""yyyyMMdd"")",Firefox 56.0,,2017-10-26 10:20:51,2017-10-26 10:20:51,"0,045s",PASSED
+"Statement - s += ""-""",Firefox 56.0,,2017-10-26 10:20:51,2017-10-26 10:20:51,"0,000s",PASSED
+Statement - randomGenerator = new java.util.Random(),Firefox 56.0,,2017-10-26 10:20:51,2017-10-26 10:20:51,"0,041s",PASSED
+Statement - hash = randomGenerator.nextInt(100),Firefox 56.0,,2017-10-26 10:20:51,2017-10-26 10:20:51,"0,014s",PASSED
+Statement - s += hash,Firefox 56.0,,2017-10-26 10:20:51,2017-10-26 10:20:51,"0,036s",PASSED
+"Statement - s = s + ""@tlg.com""",Firefox 56.0,Hasta aqui generamos una cadena de formato tlg-fecha-hash@tlg.com\r\n,2017-10-26 10:20:51,2017-10-26 10:20:51,"0,003s",PASSED
+Statement - mailGlobal = s,Firefox 56.0,,2017-10-26 10:20:51,2017-10-26 10:20:51,"0,190s",PASSED
+Statement - mail = new com.kms.katalon.core.testobject.TestObject(mail),Firefox 56.0,Creamos un nuevo TestObject para el campo Email\r\n,2017-10-26 10:20:51,2017-10-26 10:20:51,"0,004s",PASSED
+"Statement - mail.addProperty(""xpath"", EQUALS, ""//input[@id='userEmailField']"", true)",Firefox 56.0,Decimos que este testobject contiene la propiedad Xpath que nos interesa,2017-10-26 10:20:51,2017-10-26 10:20:51,"0,006s",PASSED
+setText,Firefox 56.0,rellenamos  el test Obect\r\n,2017-10-26 10:20:51,2017-10-26 10:20:58,"6,818s",PASSED
+Statement - Adreca1 = new com.kms.katalon.core.testobject.TestObject(Adreca1),Firefox 56.0,Creamos un nuevo TestObject para el campo Adreca test 1\r\n,2017-10-26 10:20:58,2017-10-26 10:20:58,"0,002s",PASSED
+"Statement - Adreca1.addProperty(""xpath"", EQUALS, ""//input[@id='userAddress1Field']"", true)",Firefox 56.0,Decimos que este testobject contiene la propiedad Xpath que nos interesa,2017-10-26 10:20:58,2017-10-26 10:20:58,"0,000s",PASSED
+setText,Firefox 56.0,rellenamos  el test Obect\r\n,2017-10-26 10:20:58,2017-10-26 10:20:59,"0,818s",PASSED
+Statement - Adreca2 = new com.kms.katalon.core.testobject.TestObject(Adreca2),Firefox 56.0,Creamos un nuevo TestObject para el campo Adreca test 2\r\n,2017-10-26 10:20:59,2017-10-26 10:20:59,"0,000s",PASSED
+"Statement - Adreca2.addProperty(""xpath"", EQUALS, ""//input[@id='userAddress2Field']"", true)",Firefox 56.0,Decimos que este testobject contiene la propiedad Xpath que nos interesa,2017-10-26 10:20:59,2017-10-26 10:20:59,"0,006s",PASSED
+setText,Firefox 56.0,rellenamos  el test Obect\r\n,2017-10-26 10:20:59,2017-10-26 10:21:00,"1,017s",PASSED
+Statement - Compania = new com.kms.katalon.core.testobject.TestObject(Compania),Firefox 56.0,Creamos un nuevo TestObject para el campo Compania\r\n,2017-10-26 10:21:00,2017-10-26 10:21:00,"0,002s",PASSED
+"Statement - Compania.addProperty(""xpath"", EQUALS, ""//input[@id='userCompanyField']"", true)",Firefox 56.0,Decimos que este testobject contiene la propiedad Xpath que nos interesa,2017-10-26 10:21:00,2017-10-26 10:21:00,"0,002s",PASSED
+setText,Firefox 56.0,rellenamos  el test Obect\r\n,2017-10-26 10:21:00,2017-10-26 10:21:01,"0,822s",PASSED
+Statement - Name = new com.kms.katalon.core.testobject.TestObject(Name),Firefox 56.0,Creamos un nuevo TestObject para el campo Name\r\n,2017-10-26 10:21:01,2017-10-26 10:21:01,"0,000s",PASSED
+"Statement - Name.addProperty(""xpath"", EQUALS, ""//input[@id='userFirstNameField']"", true)",Firefox 56.0,Decimos que este testobject contiene la propiedad Xpath que nos interesa,2017-10-26 10:21:01,2017-10-26 10:21:01,"0,000s",PASSED
+setText,Firefox 56.0,rellenamos  el test Obect\r\n,2017-10-26 10:21:01,2017-10-26 10:21:02,"0,738s",PASSED
+Statement - Apellido = new com.kms.katalon.core.testobject.TestObject(Apellido),Firefox 56.0,Creamos un nuevo TestObject para el campo Apellido\r\n,2017-10-26 10:21:02,2017-10-26 10:21:02,"0,002s",PASSED
+"Statement - Apellido.addProperty(""xpath"", EQUALS, ""//input[@id='userLastNameField']"", true)",Firefox 56.0,Decimos que este testobject contiene la propiedad Xpath que nos interesa,2017-10-26 10:21:02,2017-10-26 10:21:02,"0,001s",PASSED
+setText,Firefox 56.0,rellenamos  el test Obect\r\n,2017-10-26 10:21:02,2017-10-26 10:21:02,"0,890s",PASSED
+Statement - Pass = new com.kms.katalon.core.testobject.TestObject(Pass),Firefox 56.0,Creamos un nuevo TestObject para el campo password\r\n,2017-10-26 10:21:02,2017-10-26 10:21:02,"0,001s",PASSED
+"Statement - Pass.addProperty(""xpath"", EQUALS, ""//input[@id='userPasswordField']"", true)",Firefox 56.0,Decimos que este testobject contiene la propiedad Xpath que nos interesa,2017-10-26 10:21:02,2017-10-26 10:21:02,"0,002s",PASSED
+setText,Firefox 56.0,rellenamos  el test Obect\r\n,2017-10-26 10:21:02,2017-10-26 10:21:03,"0,978s",PASSED
+Statement - CPass = new com.kms.katalon.core.testobject.TestObject(CPass),Firefox 56.0,Creamos un nuevo TestObject para el campo Confirma Password\r\n,2017-10-26 10:21:03,2017-10-26 10:21:03,"0,002s",PASSED
+"Statement - CPass.addProperty(""xpath"", EQUALS, ""//input[@id='userRetypePasswordField']"", true)",Firefox 56.0,Decimos que este testobject contiene la propiedad Xpath que nos interesa,2017-10-26 10:21:03,2017-10-26 10:21:03,"0,005s",PASSED
+setText,Firefox 56.0,rellenamos  el test Obect\r\n,2017-10-26 10:21:03,2017-10-26 10:21:04,"0,660s",PASSED
+Statement - Phone = new com.kms.katalon.core.testobject.TestObject(Phone),Firefox 56.0,Creamos un nuevo TestObject para el campo Phone\r\n,2017-10-26 10:21:04,2017-10-26 10:21:04,"0,003s",PASSED
+"Statement - Phone.addProperty(""xpath"", EQUALS, ""//input[@id='userPhoneField']"", true)",Firefox 56.0,Decimos que este testobject contiene la propiedad Xpath que nos interesa,2017-10-26 10:21:04,2017-10-26 10:21:04,"0,002s",PASSED
+setText,Firefox 56.0,rellenamos  el test Obect\r\n,2017-10-26 10:21:04,2017-10-26 10:21:05,"0,602s",PASSED
+Statement - TermsOfUse = new com.kms.katalon.core.testobject.TestObject(TermsOfUse),Firefox 56.0,Creamos un nuevo TestObject para el checkbox de Politicas y terminos de Uso\r\n,2017-10-26 10:21:05,2017-10-26 10:21:05,"0,000s",PASSED
+"Statement - TermsOfUse.addProperty(""xpath"", EQUALS, ""//input[@type='checkbox'][@class='validate-required-check'][ancestor::form[@id='userForm']]"", true)",Firefox 56.0,Decimos que este testobject contiene la propiedad Xpath que nos interesa,2017-10-26 10:21:05,2017-10-26 10:21:05,"0,000s",PASSED
+check,Firefox 56.0,checkeamos  el test Obect\r\n,2017-10-26 10:21:05,2017-10-26 10:21:06,"0,845s",PASSED
+Statement - Country1 = new com.kms.katalon.core.testobject.TestObject(Country1),Firefox 56.0,Creamos un nuevo TestObject para el input 1 de Country\r\n,2017-10-26 10:21:06,2017-10-26 10:21:06,"0,002s",PASSED
+"Statement - Country1.addProperty(""xpath"", EQUALS, ""//select[@id='userCountryField']"", true)",Firefox 56.0,Decimos que este testobject contiene la propiedad Xpath que nos interesa,2017-10-26 10:21:06,2017-10-26 10:21:06,"0,001s",PASSED
+selectOptionByLabel,Firefox 56.0,Seleccionamos la opcion por valor  el test Obect\r\n,2017-10-26 10:21:06,2017-10-26 10:21:06,"0,599s",PASSED
+Statement - Country2 = new com.kms.katalon.core.testobject.TestObject(Country2),Firefox 56.0,Creamos un nuevo TestObject para el input 2 de Country\r\n,2017-10-26 10:21:06,2017-10-26 10:21:06,"0,001s",PASSED
+"Statement - Country2.addProperty(""xpath"", EQUALS, ""//div[contains(@class, 'countriesSelector')]/select"", true)",Firefox 56.0,Decimos que este testobject contiene la propiedad Xpath que nos interesa,2017-10-26 10:21:06,2017-10-26 10:21:06,"0,000s",PASSED
+selectOptionByLabel,Firefox 56.0,Seleccionamos la opcion por valor  el test Obect\r\n,2017-10-26 10:21:06,2017-10-26 10:21:07,"1,135s",PASSED
+Statement - TercerArea = new com.kms.katalon.core.testobject.TestObject(TercerArea),Firefox 56.0,Creamos un nuevo TestObject\r\n,2017-10-26 10:21:07,2017-10-26 10:21:07,"0,002s",PASSED
+"Statement - TercerArea.addProperty(""xpath"", EQUALS, ""//div[contains(@class, 'countriesSelector')]/div/select"", true)",Firefox 56.0,Decimos que este tebobject contiene la propiedad Xpath que nos interesa,2017-10-26 10:21:07,2017-10-26 10:21:07,"0,001s",PASSED
+selectOptionByLabel,Firefox 56.0,Seleccionamos el valor deseado\r\n,2017-10-26 10:21:07,2017-10-26 10:21:09,"1,759s",PASSED
+Statement - CuartaArea = new com.kms.katalon.core.testobject.TestObject(CuartaArea),Firefox 56.0,Se repite Hasta...,2017-10-26 10:21:09,2017-10-26 10:21:09,"0,006s",PASSED
+"Statement - CuartaArea.addProperty(""xpath"", EQUALS, ""//div[contains(@class, 'countriesSelector')]/div/div/select"", true)",Firefox 56.0,,2017-10-26 10:21:09,2017-10-26 10:21:09,"0,002s",PASSED
+selectOptionByLabel,Firefox 56.0,,2017-10-26 10:21:09,2017-10-26 10:21:11,"2,348s",PASSED
+Statement - QuintaArea = new com.kms.katalon.core.testobject.TestObject(QuintaArea),Firefox 56.0,,2017-10-26 10:21:11,2017-10-26 10:21:11,"0,001s",PASSED
+"Statement - QuintaArea.addProperty(""xpath"", EQUALS, ""//div[contains(@class, 'countriesSelector')]/div/div/div/select"", true)",Firefox 56.0,,2017-10-26 10:21:11,2017-10-26 10:21:11,"0,001s",PASSED
+selectOptionByLabel,Firefox 56.0,Aqui!,2017-10-26 10:21:11,2017-10-26 10:21:13,"1,660s",PASSED
+Statement - Acabar = new com.kms.katalon.core.testobject.TestObject(Acabar),Firefox 56.0,Creamos un nuevo TestObject para el boton de acabado\r\n,2017-10-26 10:21:13,2017-10-26 10:21:13,"0,002s",PASSED
+"Statement - Acabar.addProperty(""xpath"", EQUALS, ""//input[@id='saveUserButton']"", true)",Firefox 56.0,Decimos que este testobject contiene la propiedad Xpath que nos interesa,2017-10-26 10:21:13,2017-10-26 10:21:13,"0,004s",PASSED
+click,Firefox 56.0,clickamos en el test Obect\r\n,2017-10-26 10:21:13,2017-10-26 10:21:14,"1,109s",PASSED
+closeBrowser,Firefox 56.0,,2017-10-26 10:21:14,2017-10-26 10:21:16,"2,198s",PASSED
+,,,,,,
+Test Cases/login,Firefox 56.0,,2017-10-26 10:21:16,2017-10-26 10:22:09,"52,275s",PASSED
+openBrowser,Firefox 56.0,,2017-10-26 10:21:18,2017-10-26 10:21:42,"24,554s",PASSED
+Statement - SignIn = new com.kms.katalon.core.testobject.TestObject(SignIn),Firefox 56.0,Creamos un nuevo TestObject para el boton Sign IN Account\r\n,2017-10-26 10:21:42,2017-10-26 10:21:42,"0,004s",PASSED
+"Statement - SignIn.addProperty(""xpath"", EQUALS, ""//a[contains(@href,'/user')][@title='Sign In']"", true)",Firefox 56.0,Decimos que este testobject contiene la propiedad Xpath que nos interesa,2017-10-26 10:21:42,2017-10-26 10:21:42,"0,002s",PASSED
+click,Firefox 56.0,clickamos en el test Obect\r\n,2017-10-26 10:21:42,2017-10-26 10:21:43,"1,263s",PASSED
+Statement - mail = new com.kms.katalon.core.testobject.TestObject(mail),Firefox 56.0,Creamos un nuevo TestObject para el input Email en la pagina de login\r\n,2017-10-26 10:21:43,2017-10-26 10:21:43,"0,001s",PASSED
+"Statement - mail.addProperty(""xpath"", EQUALS, ""//input[@id='smallLoginEmailField']"", true)",Firefox 56.0,Decimos que este testobject contiene la propiedad Xpath que nos interesa,2017-10-26 10:21:43,2017-10-26 10:21:43,"0,001s",PASSED
+setText,Firefox 56.0,rellenamos en el test Obect email con la variable global mailGlobal\r\n,2017-10-26 10:21:43,2017-10-26 10:21:51,"7,600s",PASSED
+Statement - Pass = new com.kms.katalon.core.testobject.TestObject(Pass),Firefox 56.0,Creamos un nuevo TestObject para el input Password en la pagina de login\r\n,2017-10-26 10:21:51,2017-10-26 10:21:51,"0,002s",PASSED
+"Statement - Pass.addProperty(""xpath"", EQUALS, ""//input[@id='smallLoginPasswordField']"", true)",Firefox 56.0,Decimos que este testobject contiene la propiedad Xpath que nos interesa,2017-10-26 10:21:51,2017-10-26 10:21:51,"0,004s",PASSED
+setText,Firefox 56.0,rellenamos en el test Obect pass con el pass que solemos usar: pass1\r\n,2017-10-26 10:21:51,2017-10-26 10:21:52,"1,396s",PASSED
+Statement - Enter = new com.kms.katalon.core.testobject.TestObject(Enter),Firefox 56.0,Creamos un nuevo TestObject para el boton de Enter login\r\n,2017-10-26 10:21:52,2017-10-26 10:21:52,"0,002s",PASSED
+"Statement - Enter.addProperty(""xpath"", EQUALS, ""//input[@id='smallLoginSubmit']"", true)",Firefox 56.0,Decimos que este testobject contiene la propiedad Xpath que nos interesa,2017-10-26 10:21:52,2017-10-26 10:21:52,"0,001s",PASSED
+click,Firefox 56.0,clickamos en el testObject \r\n,2017-10-26 10:21:52,2017-10-26 10:21:53,"0,490s",PASSED
+Statement - MyOrders = new com.kms.katalon.core.testobject.TestObject(MyOrders),Firefox 56.0,Creamos un nuevo TestObject para el link de MyOrders login\r\n,2017-10-26 10:21:53,2017-10-26 10:21:53,"0,001s",PASSED
+"Statement - MyOrders.addProperty(""xpath"", EQUALS, ""//a[@class='userPanelLink userPanelOrdersLink'][@href='/user/orders']"", true)",Firefox 56.0,Decimos que este testobject contiene la propiedad Xpath que nos interesa,2017-10-26 10:21:53,2017-10-26 10:21:53,"0,000s",PASSED
+click,Firefox 56.0,clickamos en el testObject \r\n,2017-10-26 10:21:53,2017-10-26 10:22:01,"7,999s",PASSED
+Statement - miUrl = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getUrl(),Firefox 56.0,Guardamos la url donde se encunetra el navegador en la variable miUrl,2017-10-26 10:22:01,2017-10-26 10:22:07,"6,396s",PASSED
+verifyMatch,Firefox 56.0,Comprovamos que el valor de miUrl es el esperado,2017-10-26 10:22:07,2017-10-26 10:22:07,"0,098s",PASSED
+closeBrowser,Firefox 56.0,,2017-10-26 10:22:07,2017-10-26 10:22:09,"1,330s",PASSED
+,,,,,,
+Test Cases/logout,Firefox 56.0,,2017-10-26 10:22:09,2017-10-26 10:23:02,"52,675s",PASSED
+openBrowser,Firefox 56.0,,2017-10-26 10:22:10,2017-10-26 10:22:34,"24,636s",PASSED
+Statement - SignIn = new com.kms.katalon.core.testobject.TestObject(SignIn),Firefox 56.0,Creamos un nuevo TestObject para el boton Create Account\r\n,2017-10-26 10:22:34,2017-10-26 10:22:34,"0,004s",PASSED
+"Statement - SignIn.addProperty(""xpath"", EQUALS, ""//a[contains(@href,'/user')][@title='Sign In']"", true)",Firefox 56.0,Decimos que este testobject contiene la propiedad Xpath que nos interesa,2017-10-26 10:22:35,2017-10-26 10:22:35,"0,003s",PASSED
+click,Firefox 56.0,clickamos en el test Obect\r\n,2017-10-26 10:22:35,2017-10-26 10:22:36,"1,288s",PASSED
+Statement - mail = new com.kms.katalon.core.testobject.TestObject(mail),Firefox 56.0,Creamos un nuevo TestObject para el input Email en la pagina de login\r\n,2017-10-26 10:22:36,2017-10-26 10:22:36,"0,001s",PASSED
+"Statement - mail.addProperty(""xpath"", EQUALS, ""//input[@id='smallLoginEmailField']"", true)",Firefox 56.0,Decimos que este testobject contiene la propiedad Xpath que nos interesa,2017-10-26 10:22:36,2017-10-26 10:22:36,"0,001s",PASSED
+setText,Firefox 56.0,rellenamos en el test Obect email con la variable global mailGlobal\r\n,2017-10-26 10:22:36,2017-10-26 10:22:43,"7,375s",PASSED
+Statement - Pass = new com.kms.katalon.core.testobject.TestObject(Pass),Firefox 56.0,Creamos un nuevo TestObject para el input Password en la pagina de login\r\n,2017-10-26 10:22:43,2017-10-26 10:22:43,"0,002s",PASSED
+"Statement - Pass.addProperty(""xpath"", EQUALS, ""//input[@id='smallLoginPasswordField']"", true)",Firefox 56.0,Decimos que este testobject contiene la propiedad Xpath que nos interesa,2017-10-26 10:22:43,2017-10-26 10:22:43,"0,002s",PASSED
+setText,Firefox 56.0,rellenamos en el test Obect pass con el pass que solemos usar: pass1\r\n,2017-10-26 10:22:43,2017-10-26 10:22:45,"1,502s",PASSED
+Statement - Enter = new com.kms.katalon.core.testobject.TestObject(Enter),Firefox 56.0,Creamos un nuevo TestObject para el boton de Enter login\r\n,2017-10-26 10:22:45,2017-10-26 10:22:45,"0,000s",PASSED
+"Statement - Enter.addProperty(""xpath"", EQUALS, ""//input[@id='smallLoginSubmit']"", true)",Firefox 56.0,Decimos que este testobject contiene la propiedad Xpath que nos interesa,2017-10-26 10:22:45,2017-10-26 10:22:45,"0,003s",PASSED
+click,Firefox 56.0,clickamos en el testObject \r\n,2017-10-26 10:22:45,2017-10-26 10:22:46,"1,092s",PASSED
+Statement - LogOut = new com.kms.katalon.core.testobject.TestObject(LogOut),Firefox 56.0,Creamos un nuevo TestObject para el link de LogOut login\r\n,2017-10-26 10:22:46,2017-10-26 10:22:46,"0,000s",PASSED
+"Statement - LogOut.addProperty(""xpath"", EQUALS, ""//a[@class='userPanelLink userPanelLogoutLink'][@href='/logout']"", true)",Firefox 56.0,Decimos que este testobject contiene la propiedad Xpath que nos interesa,2017-10-26 10:22:46,2017-10-26 10:22:46,"0,000s",PASSED
+click,Firefox 56.0,clickamos en el testObject \r\n,2017-10-26 10:22:46,2017-10-26 10:22:54,"8,476s",PASSED
+Statement - miUrl = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getUrl(),Firefox 56.0,Guardamos la url donde se encunetra el navegador en la variable miUrl,2017-10-26 10:22:54,2017-10-26 10:23:00,"5,872s",PASSED
+verifyMatch,Firefox 56.0,Comprovamos que el valor de miUrl es el esperado,2017-10-26 10:23:00,2017-10-26 10:23:00,"0,005s",PASSED
+closeBrowser,Firefox 56.0,,2017-10-26 10:23:00,2017-10-26 10:23:02,"1,369s",PASSED
+,,,,,,
+Test Cases/Delete,Firefox 56.0,,2017-10-26 10:23:02,2017-10-26 10:24:00,"58,889s",PASSED
+openBrowser,Firefox 56.0,,2017-10-26 10:23:03,2017-10-26 10:23:26,"22,963s",PASSED
+Statement - SignIn = new com.kms.katalon.core.testobject.TestObject(SignIn),Firefox 56.0,Creamos un nuevo TestObject para el boton Create Account\r\n,2017-10-26 10:23:26,2017-10-26 10:23:26,"0,002s",PASSED
+"Statement - SignIn.addProperty(""xpath"", EQUALS, ""//a[contains(@href,'/user')][@title='Sign In']"", true)",Firefox 56.0,Decimos que este testobject contiene la propiedad Xpath que nos interesa,2017-10-26 10:23:26,2017-10-26 10:23:26,"0,002s",PASSED
+click,Firefox 56.0,clickamos en el test Obect\r\n,2017-10-26 10:23:26,2017-10-26 10:23:27,"0,949s",PASSED
+Statement - mail = new com.kms.katalon.core.testobject.TestObject(mail),Firefox 56.0,Creamos un nuevo TestObject para el input Email en la pagina de login\r\n,2017-10-26 10:23:27,2017-10-26 10:23:27,"0,001s",PASSED
+"Statement - mail.addProperty(""xpath"", EQUALS, ""//input[@id='smallLoginEmailField']"", true)",Firefox 56.0,Decimos que este testobject contiene la propiedad Xpath que nos interesa,2017-10-26 10:23:27,2017-10-26 10:23:27,"0,001s",PASSED
+setText,Firefox 56.0,rellenamos en el test Obect email con la variable global mailGlobal\r\n,2017-10-26 10:23:27,2017-10-26 10:23:35,"8,426s",PASSED
+Statement - Pass = new com.kms.katalon.core.testobject.TestObject(Pass),Firefox 56.0,Creamos un nuevo TestObject para el input Password en la pagina de login\r\n,2017-10-26 10:23:35,2017-10-26 10:23:35,"0,001s",PASSED
+"Statement - Pass.addProperty(""xpath"", EQUALS, ""//input[@id='smallLoginPasswordField']"", true)",Firefox 56.0,Decimos que este testobject contiene la propiedad Xpath que nos interesa,2017-10-26 10:23:35,2017-10-26 10:23:35,"0,000s",PASSED
+setText,Firefox 56.0,rellenamos en el test Obect pass con el pass que solemos usar: pass1\r\n,2017-10-26 10:23:35,2017-10-26 10:23:36,"1,308s",PASSED
+Statement - Enter = new com.kms.katalon.core.testobject.TestObject(Enter),Firefox 56.0,Creamos un nuevo TestObject para el boton de Enter login\r\n,2017-10-26 10:23:36,2017-10-26 10:23:36,"0,011s",PASSED
+"Statement - Enter.addProperty(""xpath"", EQUALS, ""//input[@id='smallLoginSubmit']"", true)",Firefox 56.0,Decimos que este testobject contiene la propiedad Xpath que nos interesa,2017-10-26 10:23:36,2017-10-26 10:23:36,"0,002s",PASSED
+click,Firefox 56.0,clickamos en el testObject \r\n,2017-10-26 10:23:36,2017-10-26 10:23:37,"1,025s",PASSED
+Statement - Delete = new com.kms.katalon.core.testobject.TestObject(Delete),Firefox 56.0,Creamos un nuevo TestObject para el link de Delete Account login\r\n,2017-10-26 10:23:37,2017-10-26 10:23:37,"0,001s",PASSED
+"Statement - Delete.addProperty(""xpath"", EQUALS, ""//a[@class='userPanelLink userPanelDeleteAccountLink'][@href='/user/deleteAccount']"", true)",Firefox 56.0,Decimos que este testobject contiene la propiedad Xpath que nos interesa,2017-10-26 10:23:37,2017-10-26 10:23:37,"0,000s",PASSED
+click,Firefox 56.0,clickamos en el testObject \r\n,2017-10-26 10:23:37,2017-10-26 10:23:45,"7,517s",PASSED
+Statement - Pass = new com.kms.katalon.core.testobject.TestObject(Pass),Firefox 56.0,Creamos un nuevo TestObject para el campo password \r\n,2017-10-26 10:23:45,2017-10-26 10:23:45,"0,001s",PASSED
+"Statement - Pass.addProperty(""xpath"", EQUALS, ""//input[@type='password'][@class='form-control formField deleteAccountField required']"", true)",Firefox 56.0,Decimos que este testobject contiene la propiedad Xpath que nos interesa,2017-10-26 10:23:45,2017-10-26 10:23:45,"0,002s",PASSED
+setText,Firefox 56.0,rellenamos  el test con la pass habitual: pass1 Obect\r\n,2017-10-26 10:23:45,2017-10-26 10:23:52,"6,807s",PASSED
+Statement - BtnDelete = new com.kms.katalon.core.testobject.TestObject(BtnDelete),Firefox 56.0,Creamos un nuevo TestObject para el Boton de confirmacion de eliminacion \r\n,2017-10-26 10:23:52,2017-10-26 10:23:52,"0,002s",PASSED
+"Statement - BtnDelete.addProperty(""xpath"", EQUALS, ""//input[@id='deleteAccountSubmit']"", true)",Firefox 56.0,Decimos que este testobject contiene la propiedad Xpath que nos interesa,2017-10-26 10:23:52,2017-10-26 10:23:52,"0,002s",PASSED
+click,Firefox 56.0,Clickamos  el test Obect\r\n,2017-10-26 10:23:52,2017-10-26 10:23:53,"0,851s",PASSED
+delay,Firefox 56.0,,2017-10-26 10:23:53,2017-10-26 10:23:56,"3,058s",PASSED
+Statement - miUrl = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getUrl(),Firefox 56.0,Guardamos la url donde se encunetra el navegador en la variable miUrl,2017-10-26 10:23:56,2017-10-26 10:24:00,"4,835s",PASSED
+verifyMatch,Firefox 56.0,Comprovamos que el valor de miUrl es el esperado,2017-10-26 10:24:00,2017-10-26 10:24:00,"0,004s",PASSED
